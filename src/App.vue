@@ -59,8 +59,8 @@ import { RouterLink } from 'vue-router'
             > -->
             <RouterLink to="/contactus" class="w-full py-6 text-center hover:opacity-90">Contact us</RouterLink>
             <!-- <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
-              >Legal</a  -->
-            >
+              >Legal</a 
+            >-->
             <!-- <RouterLink to="/legal" class="w-full py-6 text-center hover:opacity-90">Legal</RouterLink> -->
           </nav>
         </section>
