@@ -20,11 +20,8 @@ import { RouterLink } from 'vue-router'
               ></div>
             </button>
             <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
-              <!-- <a href="#rockets" class="hover:opacity-90">Our Rockets</a> -->
               <RouterLink to="/rockets" class="hover:opacity-90">Our rockets</RouterLink>
-              <!-- <a href="#testimonials" class="hover:opacity-90">Testimonials</a> -->
               <RouterLink to="/testimonials" class="hover:opacity-90">Testimonials</RouterLink>
-              <!-- <a href="#contact" class="hover:opacity-90">Contact Us</a> -->
               <RouterLink to="/contactus" class="hover:opacity-90">Contact us</RouterLink>
             </nav>
           </div>
@@ -40,28 +37,10 @@ import { RouterLink } from 'vue-router'
             class="flex min-h-screen flex-col items-center py-8"
             aria-label="mobile"
           >
-            <!-- <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
-              >Home</a
-            > -->
             <RouterLink to="/" class="w-full py-6 text-center hover:opacity-90">Home</RouterLink>
-            <!-- <a href="#rockets" class="w-full py-6 text-center hover:opacity-90"
-              >Our Rockets</a
-            > -->
             <RouterLink to="/rockets" class="w-full py-6 text-center hover:opacity-90">Our rockets</RouterLink>
-            <!-- <a
-              href="#testimonials"
-              class="w-full py-6 text-center hover:opacity-90"
-              >Testimonials</a
-            > -->
             <RouterLink to="/testimonials" class="w-full py-6 text-center hover:opacity-90">Testimonials</RouterLink>
-            <!-- <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
-              >Contact Us</a
-            > -->
             <RouterLink to="/contactus" class="w-full py-6 text-center hover:opacity-90">Contact us</RouterLink>
-            <!-- <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
-              >Legal</a 
-            >-->
-            <!-- <RouterLink to="/legal" class="w-full py-6 text-center hover:opacity-90">Legal</RouterLink> -->
           </nav>
         </section>
     </header>
